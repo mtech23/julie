@@ -326,3 +326,25 @@ h6.price {
 
 
 /* #343a4024 */
+
+/* //////////////////// */
+
+
+.login_btn{
+  border: 1px solid #fff !important;
+  border-radius: 20px !important;
+  padding: 6px 20px !important;
+  color: #fff !important;
+}
+
+
+.footer_section{
+  margin-top: 65px;
+  border-top: 2px solid #fff;
+  padding-top: 20px;
+}
+
+.footer_para{
+  color: #fff;
+  text-align: center;
+}
