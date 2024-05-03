@@ -1,0 +1,254 @@
+
+p, a{
+    font-family: 'poppinsLight';
+}
+
+.main_header{
+    position: absolute;
+    width: 100%;
+    padding: 10px 30px;
+}
+
+@font-face {
+    font-family: 'Astrology';
+    src: url('./fonts/Astrology.otf');
+  }
+
+
+  @font-face {
+    font-family: 'AstrologyBold';
+    src: url('./fonts/Astrology.ttf');
+  }
+
+  @font-face {
+    font-family: 'poppins';
+    src: url('./fonts/Poppins-Medium.ttf');
+  }
+
+  @font-face {
+    font-family: 'poppinsLight';
+    src: url('./fonts/Poppins-Light.ttf');
+  }
+
+  .main_bg{
+    /* background-image: url(../Julie/images/hero-bk.png); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: transparent;
+    z-index: 1;
+  }
+  a.logo-name{
+    font-family: 'Space' ,'Astronomy';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 43.7px;
+    text-align: left;
+    color: #fff !important;
+  }
+  a.nav-link.main_menu_head {
+    color: #fff !important;
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+  }
+
+
+  /* h1{
+    font-family: 'poppins';
+  } */
+
+  .banner_top_section{
+    background-image: url(../Julie/images/hero-bk.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0px;
+  }
+  .banner_top_section h1.store{
+    font-family: 'Astrology';
+    font-size: 81.11px;
+    font-weight: 400;
+    line-height: 89.22px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff
+  }
+  .banner_top_section p.store_para{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    color: #fff;
+  }
+  .main_body_bg{
+    background-image: url(../Julie/images/main-bk.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0px ;
+  }
+  .jewelry_heading_with_para{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+  }
+  h3.jewelry{
+    font-family: 'Astrology';
+    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #fff;
+    margin: 0px;
+  }
+  p.jewelry_para{
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: 0px;
+    Line-height: 20px;
+  }
+  .art_work{
+    border-radius: 20px;
+    background: transparent;
+    color: #fff;
+    padding: 8px 47px;
+    margin: 0px;
+    border: 1px solid #43B1E9;
+    font-size: 14px;
+  }
+  h6.price{
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    color:#fff;
+  }
+
+   /* jewelry boxes start  */
+
+  .jewelry_main_boxes{
+    text-align: center;
+    margin-top: 40px;
+  }
+  .jewelry_image{
+    border-radius: 140px;
+    padding: 20px;
+  }
+  
+  h5.product_name{
+    font-family: 'Astrology';
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 38.5px;
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+  }
+p.product_description{
+  font-family: 'Poppins';
+  font-size: 13px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+}
+.details{
+  border-radius: 20px;
+  background: transparent;
+  color: #fff;
+  padding: 8px 47px;
+  margin: 0px;
+  border: 1px solid #fff;
+  font-size: 14px;
+  text-align: center;
+}
+  /* jewelry boxes end  */
+
+
+  /* blog post css start */
+  .post_image{
+   
+  }
+  .post_heading_with_description{
+    text-align: center;
+    background: #343a407a;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 9%);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid #00327a;
+    padding: 23px;
+    margin: -96px 13px 0px 13px;
+  }
+  h5.post_name{
+    font-family: 'Astrology';
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 38.5px;
+    text-align: center;
+    color: #fff;
+  }
+  p.post_description{
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #fff;
+  }
+  .post_btn{
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: center;
+    background-color: transparent;
+    text-decoration: underline;
+    color: #fff;
+    border: none;
+  }
+
+
+    /* blog post css end */
+
+  @media (max-width:768px) {
+    .banner_top_section h1.store {
+      font-size: 46px;
+    }
+    .banner_top_section p.store_para {
+      font-size: 10px;
+      line-height: 18px;
+  }
+  .banner_top_section {
+    padding: 60px 0px;
+}
+p.jewelry_para {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  padding: 0;
+  font-size: 9px;
+}
+h3.jewelry {
+  font-size: 22px;;
+}
+h6.price {
+  font-size: 16px;
+}
+.art_work {
+  padding: 6px 39px;
+}
+}
+
+
+
+/* #343a4024 */
